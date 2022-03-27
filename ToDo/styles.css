@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #bbf7be 0%, #B5FFFC 100%);
+
+}
+
+ .todo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.newItem {
+  width: 30%;
+  /* background-color: white; */
+}
+
+.todo-class {
+  width: 100%;
+}
+
+
+input {
+  height: 25px;
+  width: 300px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 2px;
+}
+
+.add {
+  height: 22px;
+  border: none;
+  border-radius: 2px;
+  padding: 0 28px;
+  background-color: #b4dc7f;
+  font-size: 18px;
+ 
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: #8cc055;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-radius: 5px;;
+  background-color: rgba(204, 198, 198, .50);
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.trashClass{
+  border: none;
+  background: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: .50em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.fa-solid, .fa-trash-can {
+  pointer-events: none;
+}
+
+.trashClass:hover{
+  background: #8b0000;
+}
